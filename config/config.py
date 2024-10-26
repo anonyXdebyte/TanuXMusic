@@ -14,10 +14,10 @@ API_HASH = getenv("API_HASH", None)
 OWNER_USERNAME = getenv("OWNER_USERNAME", "ANONYTE_OFFICIAL")
 
 #❖  Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME", "AnonyteMusic_bot")
+BOT_USERNAME = getenv("BOT_USERNAME", "❂𐂷 𐤠ƝⰙƝƳƬƸ 𐒄ꓴⳜƖƇ 𐂷❂")
 
 #❖  Don't Add style font
-BOT_NAME = getenv("BOT_NAME", "ANONYTE MUSIC")
+BOT_NAME = getenv("BOT_NAME", "❂𐂷 𐤠ƝⰙƝƳƬƸ 𐒄ꓴⳜƖƇ 𐂷❂")
 
 #❖ get Your Assistant User name
 ASSUSERNAME = getenv("ASSUSERNAME", "AnonyteMusic_Assistant")
