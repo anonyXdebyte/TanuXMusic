@@ -4,7 +4,7 @@ from TanuMusic import app
 from config import BOT_USERNAME
 
 start_txt = """
-❖ ʜᴇʏ , ᴛʜᴇʀᴇ ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ʏᴏᴜ  ♥︎\n\n● ɪғ ʏᴏᴜ ᴡᴀɴᴛ ˹ Kʀɪsʜɴᴇᴛᴡᴏʀᴋ™ ♡゙゙, ʙᴏᴛ ʀᴇᴘᴏ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴄᴏʟʟᴇᴄᴛ ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ.\n\n❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ˹ ᴋʀɪsʜ ᴍᴜsɪᴄ™ ♡゙"""
+❖ ʜᴇʏ , ᴛʜᴇʀᴇ ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ʏᴏᴜ  ♥︎\n\n● ɪғ ʏᴏᴜ ᴡᴀɴᴛ ❂𐂷 𐤠ƝⰙƝƳƬƸ 𐒄ꓴⳜƖƇ 𐂷❂, ʙᴏᴛ ʀᴇᴘᴏ ᴛʜᴇɴ ʏᴏᴜ ᴄᴀɴ ꜰɪɴᴅ ɪᴛ ᴏɴ ɪɴᴛᴇʀɴᴇᴛ ɪᴛꜱ ᴀɴ ᴏᴘᴇɴ ꜱᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ.\n\n❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ❂𐂷 𐤠ƝⰙƝƳƬƸ 𐒄ꓴⳜƖƇ 𐂷❂"""
 
 
 
@@ -13,15 +13,14 @@ start_txt = """
 async def start(_, msg):
     buttons = [
         [
-          InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/krishSupport"),
-          InlineKeyboardButton("ʀᴇᴘᴏ", url="https://graph.org/file/5922a83b355489ba0853a.mp4")
+          InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/anonymous_botz")
           ],
     ]
     
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await msg.reply_photo(
-        photo="https://i.ibb.co/2FSqhSr/photo-2024-09-19-18-33-46-7416425646991081500.jpg",
+        photo="https://envs.sh/pgJ.jpg",
         caption=start_txt,
         reply_markup=reply_markup
     )
