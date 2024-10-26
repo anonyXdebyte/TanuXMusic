@@ -10,17 +10,17 @@ load_dotenv()
 API_ID = int(getenv("API_ID", None))
 API_HASH = getenv("API_HASH", None)
 
-#❖ Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME", "lx44kk")
+#❖ Add Owner Username without @
+OWNER_USERNAME = getenv("OWNER_USERNAME", "ANONYTE_OFFICIAL")
 
 #❖  Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME", "syn_ixbot")
+BOT_USERNAME = getenv("BOT_USERNAME", "AnonyteMusic_bot")
 
-#❖  Don't Add style font 
-BOT_NAME = getenv("BOT_NAME", "TANU MUSIC")
+#❖  Don't Add style font
+BOT_NAME = getenv("BOT_NAME", "ANONYTE MUSIC")
 
 #❖ get Your Assistant User name
-ASSUSERNAME = getenv("ASSUSERNAME", "TANU_ASS")
+ASSUSERNAME = getenv("ASSUSERNAME", "AnonyteMusic_Assistant")
 
 #❖ Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
@@ -34,7 +34,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600000))
 LOGGER_ID = int(getenv("LOGGER_ID", "-1002115990090"))
 
 #❖ Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "7453278496"))
+OWNER_ID = int(getenv("OWNER_ID", "6185891291"))
 
 #❖  Your heroku app name
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
@@ -44,7 +44,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/speedsnet/TanuMusic",
+    "https://github.com/anonyXdebyte/TanuXMusic",
 )
 
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
@@ -53,8 +53,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  #❖ Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/krishnetwork")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/krishsupport")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Anonymous_Botz")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Anonymous_Botz")
 
 #❖ Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -92,10 +92,10 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://envs.sh/SSL.jpg"
+    "START_IMG_URL", "https://envs.sh/pgJ.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://envs.sh/qEB.jpg"
+    "PING_IMG_URL", "https://envs.sh/pgJ.jpg"
 )
 PLAYLIST_IMG_URL = "https://telegra.ph/file/7795e58425337d0455e95.jpg"
 STATS_IMG_URL = "https://envs.sh/SSk.jpg"
