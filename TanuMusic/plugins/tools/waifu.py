@@ -6,7 +6,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 EVAA = [
     [
-        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/TanuMusicxBot?startgroup=true"),
+        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/anonytemusic_bot?startgroup=true"),
     ],
 ]
 
@@ -37,7 +37,7 @@ def waifu_command(client, message):
         if waifu_data and 'images' in waifu_data:
             first_image = waifu_data['images'][0]
             image_url = first_image['url']
-            message.reply_photo(image_url, caption=f"❖ ᴡᴀɪғᴜ ɪᴍɢ ʙʏ ➥ ˹ ᴛᴀɴᴜ ꭙ ᴍᴜsɪᴄ™ ♡゙", reply_markup=InlineKeyboardMarkup(EVAA),)
+            message.reply_photo(image_url, caption=f"❖ ᴡᴀɪғᴜ ɪᴍɢ ʙʏ ➥ ❂𐂷 𐤠ƝⰙƝƳƬƸ 𐒄ꓴⳜƖƇ 𐂷❂", reply_markup=InlineKeyboardMarkup(EVAA),)
         else:
             message.reply_text("No waifu found with the specified tags.")
 
